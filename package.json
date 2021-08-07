@@ -1,0 +1,25 @@
+{
+  "name": "healthmax",
+  "version": "1.0.0",
+  "description": "Create for technical trial from ActualSales",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmatsutani/actualsales.git"
+  },
+  "author": "Marcus Matsutani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmatsutani/actualsales/issues"
+  },
+  "homepage": "https://github.com/mmatsutani/actualsales#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sass": "^5.0.0",
+    "node-sass": "^6.0.1"
+  }
+}

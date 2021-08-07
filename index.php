@@ -28,6 +28,7 @@
 include('inc/header.php');
 include('inc/features.php');
 include('inc/list-features.php');
+include('inc/footer.php');
 ?>
 </body>
 </html>

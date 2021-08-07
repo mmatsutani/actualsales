@@ -3,7 +3,90 @@ $dark-blue: #003866;
 $white: #ffffff;
 $black: #000000;
 $grey: #555555;
+$light-grey: #cccccc;
+$lighter-grey: #f5f5f5;
+$font-family: 'Montserrat', sans-serif;
+$default-fontsize: 62.5%;
+$font-regular: 400;
+$font-bold: 700;
 
+html { font-size: $default-fontsize }
 body{
-	background: #fff;
+	background: $white;
+	color: $grey;
+	font-family: $font-family;
+	font-size: 1.6rem !important;
+}
+
+/* HEADER */
+header{
+	background-image: url('../img/bg-header.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	min-height: 600px;
+	padding: 60px 0;
+	display: flex;
+	align-items: center;
+
+	& .headline{
+		display: flex;
+		align-items: flex-start;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	& h1{
+		color: $white;
+		font-size:2.4rem;
+		font-weight: $font-bold;
+	}
+
+	& ul{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+
+		& li{
+			color: $white;
+			font-size: 1.6rem;
+			font-weight: $font-bold;
+
+			& i{
+				color: $orange;
+				font-size: 2rem;
+			}
+		}
+	}
+}
+
+.form{
+	background-color: $white;
+	border-radius: 5px;
+	padding: 40px 20px;
+
+	& form{
+		& input[type="text"], input[type="email"] {
+			font-size:1.6rem;
+		}
+
+		& button{
+			background-color: $orange;
+			color: $white;
+			font-size: 1.8rem;
+			font-weight: $font-bold;
+			padding: 10px 20px;
+			width: 100%;
+
+			&:hover{
+				background-color: darken($orange, 10%);
+				color: $white;
+			}
+		}
+	}
+}
+
+/* GENERAL */
+::placeholder{
+	color: $grey !important;
 }

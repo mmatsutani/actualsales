@@ -65,6 +65,7 @@ header{
 	background-color: $white;
 	border-radius: 5px;
 	padding: 40px 20px;
+	min-height: 340px;
 
 	& form{
 		& input[type="text"], input[type="email"] {
@@ -175,4 +176,10 @@ footer {
 
 ::placeholder{
 	color: $grey !important;
+}
+.successIcon{
+	& i {
+		font-size:6.4rem;
+		color: green;
+	}
 }

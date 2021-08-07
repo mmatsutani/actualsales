@@ -14,8 +14,8 @@
 			</div>
 
 			<div class="col-lg-6 col-md-6">
-				<div class="form">
-					<form method="post" action="">
+				<div class="form text-center">
+					<form id="frmLead">
 						<div class="mb-4">
 							<label class="visually-hidden">Full name</label>
 							<input type="text" name="fullname" id="fullname" required="required" placeholder="Full name" class="form-control">
@@ -33,7 +33,7 @@
 
 						<div class="mb-4">
 							<label class="visually-hidden">Phone number</label>
-							<input type="text" name="phone" id="phone" required="required" placeholder="Phone number" pattern="/(7|8|9)\d{9}/" class="form-control">
+							<input type="text" name="phone" id="phone" required="required" placeholder="Phone number (888 888 8888)" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" maxlength="12" class="form-control">
 						</div>
 
 						<div class="mb-4">

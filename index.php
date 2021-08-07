@@ -24,6 +24,9 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 <body>
-<?php include('inc/header.php');?>
+<?php
+include('inc/header.php');
+include('inc/features.php');
+?>
 </body>
 </html>

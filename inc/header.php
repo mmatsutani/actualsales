@@ -17,18 +17,22 @@
 				<div class="form">
 					<form method="post" action="">
 						<div class="mb-4">
+							<label class="visually-hidden">Full name</label>
 							<input type="text" name="fullname" id="fullname" required="required" placeholder="Full name" class="form-control">
 						</div>
 
 						<div class="mb-4">
+							<label class="visually-hidden">Date of birth</label>
 							<input type="text" name="birth" id="birth" required="required" placeholder="Date of birth YYYY-MM-DD" pattern="\d{4}-\d{1,2}-\d{1,2}" class="form-control">
 						</div>
 
 						<div class="mb-4">
+							<label class="visually-hidden">E-mail</label>
 							<input type="email" name="email" id="email" required="required" placeholder="E-mail" class="form-control">
 						</div>
 
 						<div class="mb-4">
+							<label class="visually-hidden">Phone number</label>
 							<input type="text" name="phone" id="phone" required="required" placeholder="Phone number" pattern="/(7|8|9)\d{9}/" class="form-control">
 						</div>
 

@@ -51,6 +51,7 @@ header{
 			color: $white;
 			font-size: 1.6rem;
 			font-weight: $font-bold;
+			margin: 10px 0;
 
 			& i{
 				color: $orange;
@@ -92,12 +93,6 @@ header{
 	color: $grey;
 	padding: 60px 0;
 
-	& h1{
-		font-size:2.4rem;
-		font-weight: $font-bold;
-		text-align: center;
-	}
-
 	& .feature {
 		background: $white;
 		border: 1px solid $light-grey;
@@ -121,7 +116,57 @@ header{
 	}
 }
 
+/* LIST FEATURES */
+.list-features {
+	padding: 60px 0;
+
+	& h1{
+		color: $dark-blue;
+		text-align: left;
+	}
+
+	& ul{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+
+		& li {
+			color: $grey;
+			margin:10px 0;
+
+			&.new {
+				color: $orange;
+			}
+
+			& i{
+				color: $orange;
+				font-size:1.6rem;
+			}
+		}
+	}
+
+	& a {
+		background-color: $dark-blue;
+		color: $white;
+		font-size: 1.6rem;
+		font-weight: $font-bold;
+		padding: 5px 10px;
+		border-radius: 5px;
+
+		&:hover {
+			color: $white;
+			background-color: lighten($dark-blue, 10%);
+		}
+	}
+}
+
 /* GENERAL */
+.title-section{
+	font-size:2.4rem;
+	font-weight: $font-bold;
+	text-align: center;
+}
+
 ::placeholder{
 	color: $grey !important;
 }
